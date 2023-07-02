@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  background-color: aliceblue;
+}
+
+.nar {
+  color: rgb(161, 96, 22);
+}
+
+header {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  color: rgb(8, 8, 68);
+}
+
+.production {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  min-height: 50vh;
+}
+.production-pre {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(200, 250, 200);
+  width: 40%;
+  min-width: 350px;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 50px;
+  height: 200px;
+}
+.production-pre-sub {
+  background-color: transparent;
+}
+.production-pre-inp {
+  margin-top: 1em;
+  background-color: whitesmoke;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 0.8em;
+}
+.production-pre-inp:focus {
+  outline: none;
+}
+.production-pre-boton {
+  margin-top: 2em;
+  width: 200px;
+  max-width: 200px;
+  align-self: center;
+  height: 3em;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 0.5em;
+  background-color: whitesmoke;
+  transition-duration: 1s;
+}
+.production-pre-boton:hover {
+  background-color: rgb(242, 217, 24);
+  outline: none;
+  border: none;
+}
+.production-post {
+  padding-top: 40px;
+  width: 35%;
+  background-color: rgb(200, 250, 200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 15px;
+  min-width: 350px;
+}
+.production-post-cel {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5em;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  min-height: 100px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.production-post-cel-first:hover {
+  color: rgb(161, 96, 22);
+}
+.production-post-cel p {
+  max-width: 250px;
+  padding: 10px;
+  overflow: auto;
+  background: transparent;
+}
+.production-post-cel-second:hover {
+  color: rgb(196, 12, 12);
+}/*# sourceMappingURL=style.css.map */
